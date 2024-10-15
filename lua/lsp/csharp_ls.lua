@@ -1,0 +1,5 @@
+--require('lvim.lsp.manager').setup("csharp_ls", {
+--  on_attach = function(client)
+--    client.stop()
+--  end
+--})
