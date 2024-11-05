@@ -10,6 +10,7 @@ require("lsp.angularls")
 require("lsp.emmet")
 require("lsp.csharp_ls")
 require("lsp.omnisharp")
+require("lsp.phpactor")
 
 -- Linters
 require("linter.eslint")
@@ -21,11 +22,12 @@ require("formatter.prettier")
 require("plugins.diffview")
 require("plugins.go-to-preview")
 require("plugins.nvim-ts-autotag")
-require("plugins.vimspector")
+--require("plugins.vimspector")
 require("plugins.fzf")
 --require("plugins.roslyn")
 require("plugins.nvim-dap")
 require("plugins.neotest")
+require("plugins.dadbod")
 
 -- vim settings
 require("vimsettings")
